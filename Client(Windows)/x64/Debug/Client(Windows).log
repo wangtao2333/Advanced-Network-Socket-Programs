@@ -1,0 +1,5 @@
+﻿  Client.cpp
+D:\Socket\Client(Windows)\Client.cpp(137,31): warning C4267: “-=”: 从“size_t”转换到“int”，可能丢失数据
+D:\Socket\Client(Windows)\Client.cpp(160,65): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Socket\Client(Windows)\Client.cpp(225,55): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  Client(Windows).vcxproj -> D:\Socket\Client(Windows)\x64\Debug\Client(Windows).exe

@@ -1,0 +1,1 @@
+g++ -o "/home/controller/projects/Client(Linux)/bin/x64/Debug/Client(Linux).out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack "/home/controller/projects/Client(Linux)/obj/x64/Debug/client.o" "/home/controller/projects/Client(Linux)/obj/x64/Debug/main.o" -lpthread

@@ -1,0 +1,30 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.231.133”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  client.cpp
+D:\Socket\Client(Linux)\client.cpp(29,22): warning : ‘memset’ used with length equal to number of elements without multiplication by element size [-Wmemset-elt-size]
+D:\Socket\Client(Linux)\client.cpp(29,22): warning :   memset(threads, 0, 2);
+D:\Socket\Client(Linux)\client.cpp(29,22): warning :                       ^
+D:\Socket\Client(Linux)\client.cpp(40,13): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\Socket\Client(Linux)\client.cpp(40,13): warning :   if (Socket == -1) return false;
+D:\Socket\Client(Linux)\client.cpp(40,13): warning :       ~~~~~~~^~~~~
+D:\Socket\Client(Linux)\client.cpp(81,20): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\Socket\Client(Linux)\client.cpp(81,20): warning :    int Length = recv(Socket, Receive_Bufer, MAX_BUF_LENGTH, 0); //��������
+D:\Socket\Client(Linux)\client.cpp(81,20): warning :                 ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Socket\Client(Linux)\client.cpp(102,1): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Socket\Client(Linux)\client.cpp(102,1): warning :  }
+D:\Socket\Client(Linux)\client.cpp(102,1): warning :  ^
+D:\Socket\Client(Linux)\client.cpp(133,10): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Socket\Client(Linux)\client.cpp(133,10): warning :    length -= strlen(FILE_PRE);
+D:\Socket\Client(Linux)\client.cpp(133,10): warning :    ~~~~~~~^~~~~~~~~~~~~~~~~~~
+D:\Socket\Client(Linux)\client.cpp(182,24): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Socket\Client(Linux)\client.cpp(182,24): warning :   while ((length = fread(buffer, 1, MAX_BUF_LENGTH, fp)) > 0) {
+D:\Socket\Client(Linux)\client.cpp(182,24): warning :                    ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Socket\Client(Linux)\client.cpp(119,1): warning : control reaches end of non-void function [-Wreturn-type]
+D:\Socket\Client(Linux)\client.cpp(119,1): warning :  }
+D:\Socket\Client(Linux)\client.cpp(119,1): warning :  ^
+  正在链接对象
+  Client(Linux).vcxproj -> D:\Socket\Client(Linux)\bin\x64\Debug\Client(Linux).out
